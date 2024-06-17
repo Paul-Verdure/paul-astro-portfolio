@@ -1,7 +1,7 @@
 import { type FC } from "react";
 import LogoImage from "./logo.webp";
 import Preview from "./preview.webp";
-import SvenImg from "./sven-img.webp";
+import PaulImg from "./paul-img.jpg";
 import Nike from "./nike.webp";
 import Adidas from "./adidas.webp";
 import Puma from "./puma.webp";
@@ -10,7 +10,7 @@ import Puma2 from "./puma-2.webp";
 export const images = {
     logo: LogoImage,
     preview: Preview,
-    svenImg: SvenImg,
+    paulImg: PaulImg,
     nike: Nike,
     adidas: Adidas,
     puma: Puma,
@@ -64,4 +64,4 @@ export const Image: FC<ImageProps> = ({
 };
 
 // default export of the images
-export { Preview, Adidas, Nike, Puma, Puma2 };
+export { Preview, Adidas, Nike, Puma, Puma2, PaulImg };

@@ -26,7 +26,7 @@ export const HeroContent = styled.div`
 
 export const HeroImageStyled = styled(Image)`
     border-radius: 100%;
-
+    object-fit: unset;
     margin-bottom: 30px;
 
     ${MediaQuery.max("md")} {
